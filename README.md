@@ -12,6 +12,8 @@ Script `train_model.py` contains a class that you can pass model, dataset and tr
 
 Script `tests_script.py` can be run from terminal to train a model of a given architecture with a given set of hyperparameters and upload the results to [neptune.ai](https://neptune.ai/). It has a parameter to repeat the training multiple times and also allows for trying different augmentation methods. 
 
+Folder `mixup_scripts` contains scripts for training models with mixup augmentation as they required a few changes in the training loop.
+
 ## Other files
 
 `ensembles*` files are related to creating ensembles and evaluating their accuracy.
