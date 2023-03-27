@@ -22,6 +22,10 @@ Folder `mixup_scripts` contains scripts for training models with mixup augmentat
 
 Folder `dl_trained_models` contains some of the models used for ensembling. Bigger models (ResNet18 architecture) were not uploaded.
 
+Folder `plots` contains all the charts created during the project.
+
+`export.csv` contains most important results exported from [neptune.ai](https://neptune.ai/).
+
 # Reproducibility
 
 This section contains description of how to repeat the experiments using the provided scripts.
@@ -59,4 +63,6 @@ Script `experiment_hyperparameters.sh` runs training of the pretrained ResNet18 
 
 You may directly run the `tests_script.py` script with different parameters. To see the examples, open `experiment_baseline.sh`.
 
-There is no separate script for ensembles. They were created and evauated in the `ensembles.ipynb` Jypyter Notebook.
+There is no separate script for ensembles. They were created and evauated in the `ensembles.ipynb` Jupyter Notebook.
+
+The codes for final plots, which were created in order to study the influence of hyperparameters and data augmentation, are available in `summary.ipynb` notebook. 
